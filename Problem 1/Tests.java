@@ -7,3 +7,4 @@ public static void main(String[] args) {
     System.out.println(mrJava);
     CollegeStudent ima = new CollegeStudent("Ima Frosh", 18, "F", "UCb123", 4.0, 1, "English");
     System.out.println(ima);
+}
