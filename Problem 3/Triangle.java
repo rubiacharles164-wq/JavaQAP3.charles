@@ -9,6 +9,10 @@ public class Triangle extends Shape {
         this.c = c;
     }
 
+    public getName() {
+        return "Triangle";
+    }
+    
     public double getA() {
         return a;
     }
@@ -38,8 +42,6 @@ public class Triangle extends Shape {
         return a + b + c;
     }
 
-    public String toString() {
-        return "Triangle with sides " + a + ", " + b + ", " + c + " has area " + area() + " and perimeter " + perimeter();
-    }
+    
 
 }

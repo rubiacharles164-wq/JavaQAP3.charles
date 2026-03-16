@@ -5,6 +5,11 @@ public class Circle extends Shape {
     public Circle(double radius) {
         this.radius = radius;
     }
+    
+    public getName() {
+        return "Circle";
+    }
+    
     public double getRadius() {
         return radius;
     }
@@ -19,8 +24,5 @@ public class Circle extends Shape {
         return 2 * PI * radius;
     }
 
-    public String toString() {
-        return "Circle with radius: " + radius + ", area: " + area() + ", perimeter: " + perimeter();
-    }
 
 }

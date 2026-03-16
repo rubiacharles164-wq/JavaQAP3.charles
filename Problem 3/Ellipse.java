@@ -6,7 +6,10 @@ public class Ellipse extends Shape {
         this.a = a;
         this.b = b;
     }
-
+    public getName() {
+        return "Ellipse";
+    }
+    
     public double getA() {
         return a;
     }
@@ -30,7 +33,4 @@ public class Ellipse extends Shape {
         return Math.PI * 2 * Math.sqrt((a * a + b * b) / 2);
     }
 
-    public String toString() {
-        return "Ellipse with semi-major axis: " + a + " and semi-minor axis: " + b + ", area: " + area() + ", perimeter: " + perimeter();
-    }
 }
