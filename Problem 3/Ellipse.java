@@ -9,7 +9,7 @@ public class Ellipse extends Shape {
     public getName() {
         return "Ellipse";
     }
-    
+
     public double getA() {
         return a;
     }
@@ -33,4 +33,7 @@ public class Ellipse extends Shape {
         return Math.PI * 2 * Math.sqrt((a * a + b * b) / 2);
     }
 
+    public String toString() {
+        return "Ellipse has area = " + area() + " and perimeter = " + perimeter();
+    }
 }

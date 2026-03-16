@@ -12,7 +12,7 @@ public class Triangle extends Shape {
     public getName() {
         return "Triangle";
     }
-    
+
     public double getA() {
         return a;
     }
@@ -43,5 +43,7 @@ public class Triangle extends Shape {
     }
 
     
-
+    public String toString() {
+        return "Triangle area: " + area() + ", perimeter: " + perimeter();
+    }
 }
