@@ -12,17 +12,15 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    @Override
     public double area() {
         return PI * radius * radius;
     }
-    @Override
     public double perimeter() {
         return 2 * PI * radius;
     }
 
     public String toString() {
-        return "Circle with radius: " + radius;
+        return "Circle with radius: " + radius + ", area: " + area() + ", perimeter: " + perimeter();
     }
 
 }
